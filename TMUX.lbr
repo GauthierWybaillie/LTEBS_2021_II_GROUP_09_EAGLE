@@ -73,7 +73,7 @@
 </layers>
 <library>
 <packages>
-<package name="TMUX1209-QFN(16)">
+<package name="QFN-16">
 <smd name="1" x="-0.75" y="0.6" dx="0.7" dy="0.2" layer="1"/>
 <smd name="2" x="-0.8" y="0.2" dx="0.6" dy="0.2" layer="1"/>
 <smd name="3" x="-0.8" y="-0.2" dx="0.6" dy="0.2" layer="1"/>
@@ -108,7 +108,7 @@
 </package>
 </packages>
 <symbols>
-<symbol name="TMUX1209">
+<symbol name="TMUX1208">
 <pin name="A0" x="22.86" y="20.32" length="middle" rot="R180"/>
 <pin name="EN" x="22.86" y="-10.16" length="middle" rot="R180"/>
 <pin name="N.C." x="22.86" y="-2.54" length="middle" rot="R180"/>
@@ -134,29 +134,29 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TMUX1209">
+<deviceset name="TMUX1208">
 <gates>
-<gate name="A" symbol="TMUX1209" x="0" y="0"/>
+<gate name="A" symbol="TMUX1208" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TMUX1209-QFN(16)">
+<device name="QNF" package="QFN-16">
 <connects>
-<connect gate="A" pin="A0" pad="1"/>
-<connect gate="A" pin="A1" pad="16"/>
-<connect gate="A" pin="A2" pad="15"/>
-<connect gate="A" pin="D" pad="8"/>
-<connect gate="A" pin="EN" pad="2"/>
-<connect gate="A" pin="GND" pad="14"/>
-<connect gate="A" pin="N.C." pad="3"/>
-<connect gate="A" pin="S1" pad="4"/>
-<connect gate="A" pin="S2" pad="5"/>
-<connect gate="A" pin="S3" pad="6"/>
-<connect gate="A" pin="S4" pad="7"/>
-<connect gate="A" pin="S5" pad="12"/>
-<connect gate="A" pin="S6" pad="11"/>
-<connect gate="A" pin="S7" pad="10"/>
-<connect gate="A" pin="S8" pad="9"/>
-<connect gate="A" pin="VDD" pad="13"/>
+<connect gate="A" pin="A0" pad="15"/>
+<connect gate="A" pin="A1" pad="14"/>
+<connect gate="A" pin="A2" pad="13"/>
+<connect gate="A" pin="D" pad="6"/>
+<connect gate="A" pin="EN" pad="16"/>
+<connect gate="A" pin="GND" pad="12"/>
+<connect gate="A" pin="N.C." pad="1"/>
+<connect gate="A" pin="S1" pad="2"/>
+<connect gate="A" pin="S2" pad="3"/>
+<connect gate="A" pin="S3" pad="4"/>
+<connect gate="A" pin="S4" pad="5"/>
+<connect gate="A" pin="S5" pad="10"/>
+<connect gate="A" pin="S6" pad="9"/>
+<connect gate="A" pin="S7" pad="8"/>
+<connect gate="A" pin="S8" pad="7"/>
+<connect gate="A" pin="VDD" pad="11"/>
 </connects>
 <technologies>
 <technology name=""/>
