@@ -6378,7 +6378,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <parts>
 <part name="U3" library="Group_09_Library" deviceset="TCA9546A" device="TSSOP16"/>
 <part name="U4" library="Group_09_Library" deviceset="TMUX1208" device="QNF"/>
-<part name="U$3" library="CY8KIT-059" deviceset="CY8CKIT-059_TARGET" device=""/>
+<part name="CY8CKIT059-TARGET" library="CY8KIT-059" deviceset="CY8CKIT-059_TARGET" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="POWER_JACK" device="PTH_LOCK"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="0.33UF/330NF" device="-0805-50V-10%" value="0.33µF"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-KIT-EZ-50V-20%" value="0.1uF"/>
@@ -6438,7 +6438,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="196.85" y="81.28" size="3.81" layer="95"/>
 <attribute name="VALUE" x="196.85" y="30.48" size="3.81" layer="96"/>
 </instance>
-<instance part="U$3" gate="G$1" x="111.76" y="124.46" smashed="yes" rot="R270"/>
+<instance part="CY8CKIT059-TARGET" gate="G$1" x="111.76" y="124.46" smashed="yes" rot="R270"/>
 <instance part="J1" gate="G$1" x="82.55" y="143.51" smashed="yes">
 <attribute name="VALUE" x="72.39" y="153.67" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="72.39" y="143.51" size="1.778" layer="95" font="vector"/>
@@ -6709,12 +6709,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="252.73" y1="76.2" x2="252.73" y2="62.23" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="VDDIO"/>
+<pinref part="CY8CKIT059-TARGET" gate="G$1" pin="VDDIO"/>
 <pinref part="SUPPLY7" gate="G$1" pin="5V"/>
 <wire x1="129.54" y1="101.6" x2="129.54" y2="110.49" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="VDD"/>
+<pinref part="CY8CKIT059-TARGET" gate="G$1" pin="VDD"/>
 <wire x1="93.98" y1="38.1" x2="83.82" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="SUPPLY8" gate="G$1" pin="5V"/>
 <wire x1="83.82" y1="38.1" x2="83.82" y2="41.91" width="0.1524" layer="91"/>
@@ -6780,13 +6780,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="242.57" y="40.64"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="GND3"/>
+<pinref part="CY8CKIT059-TARGET" gate="G$1" pin="GND3"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="129.54" y1="99.06" x2="175.26" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="99.06" x2="175.26" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="GND1"/>
+<pinref part="CY8CKIT059-TARGET" gate="G$1" pin="GND1"/>
 <wire x1="93.98" y1="40.64" x2="90.17" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="90.17" y1="40.64" x2="90.17" y2="33.02" width="0.1524" layer="91"/>
@@ -6809,7 +6809,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="38.1" y="72.39" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="P_3.7"/>
+<pinref part="CY8CKIT059-TARGET" gate="G$1" pin="P_3.7"/>
 <label x="73.66" y="81.28" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="93.98" y1="81.28" x2="73.66" y2="81.28" width="0.1524" layer="91"/>
 </segment>
@@ -6821,7 +6821,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="41.91" y="33.02" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="P_15.0"/>
+<pinref part="CY8CKIT059-TARGET" gate="G$1" pin="P_15.0"/>
 <wire x1="93.98" y1="78.74" x2="90.17" y2="78.74" width="0.1524" layer="91"/>
 <label x="90.17" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -6833,7 +6833,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="195.58" y="149.86" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="P_2.5"/>
+<pinref part="CY8CKIT059-TARGET" gate="G$1" pin="P_2.5"/>
 <wire x1="129.54" y1="50.8" x2="142.24" y2="50.8" width="0.1524" layer="91"/>
 <label x="142.24" y="50.8" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -6845,7 +6845,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="195.58" y="144.78" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="P_2.6"/>
+<pinref part="CY8CKIT059-TARGET" gate="G$1" pin="P_2.6"/>
 <wire x1="129.54" y1="53.34" x2="130.81" y2="53.34" width="0.1524" layer="91"/>
 <label x="130.81" y="53.34" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -6857,7 +6857,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="236.22" y="134.62" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="P_2.7"/>
+<pinref part="CY8CKIT059-TARGET" gate="G$1" pin="P_2.7"/>
 <wire x1="129.54" y1="55.88" x2="142.24" y2="55.88" width="0.1524" layer="91"/>
 <label x="142.24" y="55.88" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -6869,7 +6869,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="236.22" y="144.78" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="P_12.1"/>
+<pinref part="CY8CKIT059-TARGET" gate="G$1" pin="P_12.1"/>
 <wire x1="129.54" y1="73.66" x2="149.86" y2="73.66" width="0.1524" layer="91"/>
 <label x="149.86" y="73.66" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -6881,7 +6881,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="236.22" y="139.7" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="P_12.0"/>
+<pinref part="CY8CKIT059-TARGET" gate="G$1" pin="P_12.0"/>
 <wire x1="129.54" y1="76.2" x2="137.16" y2="76.2" width="0.1524" layer="91"/>
 <label x="137.16" y="76.2" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -6944,7 +6944,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="P_3.0"/>
+<pinref part="CY8CKIT059-TARGET" gate="G$1" pin="P_3.0"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="93.98" y1="99.06" x2="91.44" y2="99.06" width="0.1524" layer="91"/>
 </segment>
@@ -6958,28 +6958,28 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="MUX_OUT/2.5C" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="P_1.4"/>
+<pinref part="CY8CKIT059-TARGET" gate="G$1" pin="P_1.4"/>
 <wire x1="129.54" y1="88.9" x2="149.86" y2="88.9" width="0.1524" layer="91"/>
 <label x="149.86" y="88.9" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MUX_A2/2.3C" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="P_1.5"/>
+<pinref part="CY8CKIT059-TARGET" gate="G$1" pin="P_1.5"/>
 <wire x1="129.54" y1="91.44" x2="130.81" y2="91.44" width="0.1524" layer="91"/>
 <label x="130.81" y="91.44" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MUX_A1/2.3C" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="P_1.6"/>
+<pinref part="CY8CKIT059-TARGET" gate="G$1" pin="P_1.6"/>
 <wire x1="129.54" y1="93.98" x2="149.86" y2="93.98" width="0.1524" layer="91"/>
 <label x="149.86" y="93.98" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MUX_A0/2.3C" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="P_1.7"/>
+<pinref part="CY8CKIT059-TARGET" gate="G$1" pin="P_1.7"/>
 <wire x1="129.54" y1="96.52" x2="130.81" y2="96.52" width="0.1524" layer="91"/>
 <label x="130.81" y="96.52" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -7054,7 +7054,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="229.87" y="71.12" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MUX_A0/1.4C" class="0">
+<net name="MUX_A1/1.4C" class="0">
 <segment>
 <pinref part="U4" gate="A" pin="A1"/>
 <wire x1="222.25" y1="66.04" x2="229.87" y2="66.04" width="0.1524" layer="91"/>
@@ -7071,42 +7071,42 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="N$12" class="0">
 <segment>
 <pinref part="J6" gate="G$1" pin="1"/>
-<pinref part="U$3" gate="G$1" pin="P_0.5"/>
+<pinref part="CY8CKIT059-TARGET" gate="G$1" pin="P_0.5"/>
 <wire x1="87.63" y1="50.8" x2="93.98" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="J6" gate="G$1" pin="2"/>
-<pinref part="U$3" gate="G$1" pin="P_0.4"/>
+<pinref part="CY8CKIT059-TARGET" gate="G$1" pin="P_0.4"/>
 <wire x1="87.63" y1="53.34" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="J6" gate="G$1" pin="3"/>
-<pinref part="U$3" gate="G$1" pin="P_0.3"/>
+<pinref part="CY8CKIT059-TARGET" gate="G$1" pin="P_0.3"/>
 <wire x1="87.63" y1="55.88" x2="93.98" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="J6" gate="G$1" pin="4"/>
-<pinref part="U$3" gate="G$1" pin="P_0.2"/>
+<pinref part="CY8CKIT059-TARGET" gate="G$1" pin="P_0.2"/>
 <wire x1="87.63" y1="58.42" x2="93.98" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <pinref part="J6" gate="G$1" pin="5"/>
-<pinref part="U$3" gate="G$1" pin="P_0.1"/>
+<pinref part="CY8CKIT059-TARGET" gate="G$1" pin="P_0.1"/>
 <wire x1="87.63" y1="60.96" x2="93.98" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="J6" gate="G$1" pin="6"/>
-<pinref part="U$3" gate="G$1" pin="P_0.0"/>
+<pinref part="CY8CKIT059-TARGET" gate="G$1" pin="P_0.0"/>
 <wire x1="87.63" y1="63.5" x2="93.98" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
