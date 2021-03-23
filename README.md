@@ -4,5 +4,6 @@
   2.assignment1_LBR.lbr shows some discordances in the layers usage (tname layer should be used for names as well as tvalue for values), the symbol has been centered.
 (there is some confusion in the log on march 21, I uploaded the version directly on main, wrongly. Everything should be ok now)
                                                             Oswaldo.
+
 23.03.21
   1. Board.brd revised. Components have been moved in order to save pcb space. Dimensions and spk.scr added to be more conform with the class about Eagle.
