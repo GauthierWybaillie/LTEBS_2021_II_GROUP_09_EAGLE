@@ -1,0 +1,7 @@
+GROUP_09.*#*
+GROUP_09_**.job
+GROUP_09_**pro
+*.swp
+*.epf
+TMUX*.lbr
+TMUX.l#*
